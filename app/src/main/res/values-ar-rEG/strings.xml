@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">اقتباسات</string>
+    <string name="addauthor">أضف اسم قائمة:</string>
+    <string name="co">المحتوي</string>
+    <string name="adet">تعديل أوحذف:</string>
+    <string name="ad">أضف</string>
+    <string name="ed">تعديل</string>
+    <string name="ok">تم</string>
+    <string name="can">إلغاء</string>
+    <string name="det">حذف</string>
+    <string name="vi">عرض</string>
+    <string name="naGR">اسم القائمة</string>
+    <string name="deq">حذف العنصر</string>
+    <string name="qm">هل تريد حذف هذا العنصر ؟</string>
+    <string name="ye">نعم</string>
+    <string name="n">لا</string>
+    <string name="pwgn">من فضلك أدخل اسم القائمة</string>
+    <string name="sresult">لا توجد نتائج بحث</string>
+    <string name="allogin">أنت بالفعل مسجل دخول بالإيميل:</string>
+    <string name="logot">نتمني عودتك قريباً</string>
+    <string name="logfail">فشل تسجيل الخروج</string>
+    <string name="wel">"مرحباً "</string>
+    <string name="loginfail">فشل التسجيل</string>
+    <string name="tshrd">تم مشاركة النص</string>
+    <string name="tcop">تم نسخ النص</string>
+    <string name="delist">حذف القائمة:</string>
+    <string name="messagelist">هل تريد حذف القائمة بكل عناصرها ؟</string>
+    <string name="plwrconame">من فضلك اكتب أي موضوع</string>
+    <string name="check">من فضلك تحقق من الاتصال بالإنترنت</string>
+    <string name="si">تسجيل الدخول</string>
+    <string name="so">تسجيل الخروج</string>
+    <string name="siup">تسجيل حساب جديد</string>
+    <string name="hacc">لديك حساب بالفعل ؟</string>
+    <string name="orsup">تسجيل الدخول بواسطة</string>
+    <string name="data">من فضلك إملأ جميع البيانات</string>
+    <string name="email">هذا الايميل مستخدم من قبل.</string>
+</resources>

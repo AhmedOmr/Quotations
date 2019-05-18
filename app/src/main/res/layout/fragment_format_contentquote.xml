@@ -1,0 +1,90 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".FormatContentquote">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+
+            <RelativeLayout
+                android:id="@+id/reloptions2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:padding="5dp">
+
+                <ImageView
+                    android:id="@+id/imleft2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:scaleType="center"
+                    android:src="@drawable/qleft" />
+
+                <ImageView
+                    android:id="@+id/imcenter2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:scaleType="center"
+                    android:src="@drawable/qcenter" />
+
+                <ImageView
+                    android:id="@+id/imright2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:scaleType="center"
+                    android:src="@drawable/qright" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/reloptions3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/reloptions2"
+                android:layout_alignParentLeft="true"
+                android:padding="5dp">
+
+
+                <SeekBar
+                    android:id="@+id/seekBar_textsize"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:indeterminate="false"
+                    android:max="100"
+                    android:padding="3dp"
+                    android:progress="36"
+                    android:progressDrawable="@drawable/fontseekbar"
+                    android:theme="@style/Widget.AppCompat.SeekBar"
+                    android:thumb="@drawable/fontseekbarthumb" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/fraghide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/reloptions3"
+                android:layout_alignParentLeft="true"
+                android:src="@android:drawable/ic_menu_close_clear_cancel" />
+
+        </RelativeLayout>
+    </ScrollView>
+</FrameLayout>

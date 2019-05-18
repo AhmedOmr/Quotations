@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Quotations</string>
+    <string name="addauthor">add List name:</string>
+
+    <string name="co">content</string>
+    <string name="adet">Edit and Delete:</string>
+    <string name="ad">Add</string>
+    <string name="ed">Edit</string>
+    <string name="ok">Ok</string>
+    <string name="can">Cancel</string>
+    <string name="det">Delete</string>
+    <string name="vi">View</string>
+    <string name="naGR">Name of List</string>
+    <string name="deq">Delete Quote:</string>
+    <string name="qm">Are you sure to delete this Item?</string>
+    <string name="ye">Yes</string>
+    <string name="n">No</string>
+    <string name="pwgn">Please write Group name</string>
+    <string name="sresult">No search results</string>
+    <string name="allogin">Already Login with Email:</string>
+    <string name="logot">Hope you come back soon</string>
+    <string name="logfail">sign Out Failed</string>
+    <string name="wel">Welcome</string>
+    <string name="loginfail">Failed To login</string>
+    <string name="tshrd">Text Shared</string>
+    <string name="tcop">Text Copied</string>
+    <string name="delist">Delete List:</string>
+    <string name="messagelist">Are you sure to delete this List with all items in it ?</string>
+    <string name="plwrconame">Please write content</string>
+    <string name="check">Please Check Internet Connection</string>
+    <string name="si">Log in</string>
+    <string name="so">Sign out</string>
+    <string name="siup">Sign up</string>
+    <string name="hacc">Have  an account ?</string>
+    <string name="orsup">Or sign up with</string>
+    <string name="data">Please Entry all data</string>
+    <string name="email">The email address is already in use by another account.</string>
+
+</resources>

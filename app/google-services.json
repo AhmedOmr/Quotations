@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "615186953472",
+    "firebase_url": "https://firedbauthor.firebaseio.com",
+    "project_id": "firedbauthor",
+    "storage_bucket": "firedbauthor.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615186953472:android:2a66eed3d01d6d4d",
+        "android_client_info": {
+          "package_name": "com.mecodroid.firedb_author"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "615186953472-18p5ug801l4k2k9vd8cohp6fes1b2f5m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mecodroid.firedb_author",
+            "certificate_hash": "1c69ae4bbe01760f43a63b6a02ec5004930dbfb3"
+          }
+        },
+        {
+          "client_id": "615186953472-fd3qf63pim192gi27e4cr0l0o6ltp37j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBS3ouKbZux0PnH8edOqi3EuE_JPrzk_lg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "615186953472-fd3qf63pim192gi27e4cr0l0o6ltp37j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

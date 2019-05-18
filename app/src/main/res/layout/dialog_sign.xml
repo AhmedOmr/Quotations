@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardviewzkr"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="#fafafa"
+    app:cardCornerRadius="15dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/textsign"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="8dp"
+                android:enabled="false"
+                android:gravity="right"
+                android:inputType="textMultiLine|textLongMessage"
+                android:padding="8dp"
+                android:text="Sign In:"
+                android:textColor="#1a0101"
+                android:textDirection="anyRtl"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/textemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textsign"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:backgroundTint="#062F6D"
+                android:gravity="left"
+                android:hint="Email"
+                android:inputType="textMultiLine|textLongMessage|textCapSentences"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textColorHint="#C0C2CC"
+                android:textCursorDrawable="@drawable/signindicator"
+                android:textDirection="anyRtl"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/textpassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textemail"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:backgroundTint="#062F6D"
+                android:gravity="left"
+                android:hint="Password"
+                android:inputType="textMultiLine|textLongMessage|textCapSentences"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textColorHint="#C0C2CC"
+                android:textCursorDrawable="@drawable/signindicator"
+                android:textDirection="anyRtl"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/signInem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textpassword"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="right"
+                android:layout_margin="12dp"
+                android:background="@drawable/btndaidsgnmosbgr"
+                android:gravity="center"
+                android:text="@string/si"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/cancelsign"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textpassword"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="right"
+                android:layout_margin="12dp"
+                android:background="@drawable/btndaidsgnmosbgr"
+                android:gravity="center"
+                android:text="@string/can"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+    </ScrollView>
+</android.support.v7.widget.CardView>
